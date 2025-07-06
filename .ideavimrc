@@ -1,0 +1,40 @@
+"配置编码
+set encoding=utf-8
+imap jk <Esc>
+let mapleader= "\<space>"
+"自动缩进
+set autoindent
+"垂直滚动时，光标距离顶部/底部的位置(单位：行)
+set scrolloff=5
+"设置行号
+set number
+"高亮搜索
+set hlsearch
+"开启模式显示
+set showmode
+"同步IDE与VIM书签
+set ideamarks
+" Sets how many lines of history VIM has to remember
+set history=500
+"禁用错误提示音
+set visualbell
+set noerrorbells
+" 当“on”时，一些命令将光标移动到该行的第一个非空白处。 关闭时，光标将保留在同一>列中（如果可能）
+set startofline=on
+set clipboard=unnamed
+set sneak
+" 搜索时智能匹配大小写
+set ignorecase smartcase
+"忽略大小写
+"设置easymotion"
+set easymotion
+map <Leader>j <Plug>(easymotion-j)
+map <Leader>k <Plug>(easymotion-k)
+"设置map
+nmap E gT
+nmap R gt
+nmap H ^
+nmap L $
+nmap J <C-d>
+nmap K <C-u>
+nmap <Leader>b <C-o>

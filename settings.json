@@ -1,0 +1,151 @@
+{
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.sneak": true,
+  "vim.overrideCopy": true,
+  "vim.sneakUseIgnorecaseAndSmartcase": true,
+  "vim.highlightedyank.enable": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    },
+    {
+      "before": ["j", "k"],
+      "after": ["<Esc>"]
+    },
+    {
+      "before": ["k", "k"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["z"],
+      "after": ["u"]
+    },
+    {
+      "before": ["u"],
+      "after": ["z"]
+    },
+    {
+      "before": ["J"],
+      "after": ["<C-d>"]
+    },
+    {
+      "before": ["K"],
+      "after": ["<C-u>"]
+    },
+    {
+      "before": ["L"],
+      "after": ["$"]
+    },
+    {
+      "before": ["H"],
+      "after": ["^"]
+    },
+    {
+      "before": ["E"],
+      "after": ["g", "T"]
+    },
+    {
+      "before": ["R"],
+      "after": ["g", "t"]
+    },
+    {
+      "before": ["<C-n>"],
+      "commands": [":nohl"]
+    },
+    {
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
+    },
+    {
+      "before": ["<leader>", "j"],
+      "after": ["<leader>", "<leader>", "j"]
+    },
+    {
+      "before": ["<leader>", "s"],
+      "after": ["<leader>", "<leader>", "s"]
+    },
+    {
+      "before": ["<leader>", "k"],
+      "after": ["<leader>", "<leader>", "k"]
+    },
+    {
+      "before": ["<leader>", "b"],
+      "after": ["<C-o>"]
+    },
+    {
+      "before": ["leader", "o"],
+      "commands": ["workbench.action.gotoSymbol"]
+    },
+    {
+      "before": ["leader", "O"],
+      "commands": ["workbench.action.showAllSymbols"]
+    },
+    {
+      "before": ["leader", "m"],
+      "commands": ["workbench.action.toggleFullScreen"]
+    },
+    {
+      "before": ["leader", "t"],
+      "commands": ["workbench.action.closeOtherEditors"]
+    },
+    {
+      "before": ["leader", "leader", "t"],
+      "commands": ["terminal.focus"]
+    },
+    {
+      "before": ["leader", "g"],
+      "commands": ["workbench.view.scm"]
+    },
+    {
+      "before": ["leader", "w"],
+      "commands": ["workbench.action.files.save"]
+    },
+    {
+      "before": ["leader", "q"],
+      "commands": ["workbench.action.closeActiveEditor"]
+    },
+    {
+      "before": ["leader", "leader", "w"],
+      "commands": ["workbench.action.closeAllGroups"]
+    },
+    {
+      "before": ["leader", "e"],
+      "commands": ["workbench.view.explorer"]
+    },
+    {
+      "before": ["leader", "f"],
+      "commands": ["workbench.action.findInFiles"]
+    },
+    {
+      "before": ["leader", "T"],
+      "commands": ["terminal.focus"]
+    },
+    {
+      "before": ["leader", "5"],
+      "after": ["%"]
+    }
+  ],
+  "vim.visualModeKeyBindings": [
+    {
+      "before": [">"],
+      "commands": ["editor.action.indentLines"]
+    },
+    {
+      "before": ["<"],
+      "commands": ["editor.action.outdentLines"]
+    }
+  ],
+  "vim.leader": "<space>",
+  "vim.handleKeys": {
+    "<C-a>": false,
+    "<C-f>": false
+  },
+  "vim.commandLineModeKeyBindings": []
+}
