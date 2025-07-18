@@ -130,6 +130,14 @@
     {
       "before": ["leader", "5"],
       "after": ["%"]
+    },
+    {
+      "before": ["<leader>", "j"],
+      "after": ["<leader>", "<leader>", "j"]
+    },
+    {
+      "before": ["<leader>", "k"],
+      "after": ["<leader>", "<leader>", "k"]
     }
   ],
   "vim.visualModeKeyBindings": [
@@ -140,6 +148,14 @@
     {
       "before": ["<"],
       "commands": ["editor.action.outdentLines"]
+    },
+    {
+      "before": ["J"],
+      "after": ["<C-d>"]
+    },
+    {
+      "before": ["K"],
+      "after": ["<C-b>"]
     }
   ],
   "vim.leader": "<space>",
